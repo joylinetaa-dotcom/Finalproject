@@ -1,0 +1,20 @@
+body {
+  padding-top: 56px;
+  font-family: Arial, sans-serif;
+}
+
+.hero-section {
+  min-height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+              url("../assets/images/hockey-hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  border: none;
+}
+
+footer {
+  margin-top: 40px;
+}
