@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Membership - Scarlets Hockey Club</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">Scarlets HC</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="teams.html">Teams</a></li>
+        <li class="nav-item"><a class="nav-link" href="fixtures.html">Fixtures</a></li>
+        <li class="nav-item"><a class="nav-link" href="players.html">Players</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link active" href="membership.html">Membership</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="py-5 bg-light text-center">
+  <div class="container">
+    <h1 class="fw-bold">Club Membership</h1>
+    <p class="lead">Join Scarlets Hockey Club and become part of our growing hockey family.</p>
+  </div>
+</section>
+
+<section class="container py-5">
+  <div class="row g-4">
+    <div class="col-md-6">
+      <h2 class="fw-bold">Why Join Us?</h2>
+      <p>
+        Becoming a member of Scarlets Hockey Club gives you access to regular training sessions,
+        friendly matches, tournaments, coaching support, and a strong team environment.
+      </p>
+
+      <ul>
+        <li>Weekly hockey training sessions</li>
+        <li>Friendly and competitive matches</li>
+        <li>Beginner-friendly coaching</li>
+        <li>Opportunities to join club teams</li>
+        <li>Supportive sports community</li>
+      </ul>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h3 class="mb-3">Membership Form</h3>
+
+          <form id="membershipForm">
+            <div class="mb-3">
+              <label for="fullName" class="form-label">Full Name</label>
+              <input type="text" id="fullName" class="form-control">
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" id="email" class="form-control">
+            </div>
+
+            <div class="mb-3">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="text" id="phone" class="form-control">
+            </div>
+
+            <div class="mb-3">
+              <label for="team" class="form-label">Preferred Team</label>
+              <select id="team" class="form-select">
+                <option value="">Select a team</option>
+                <option>Men’s Team</option>
+                <option>Women’s Team</option>
+                <option>Junior Team</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn btn-danger w-100">Submit Application</button>
+          </form>
+
+          <p id="formMessage" class="mt-3 fw-bold"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-white text-center py-3">
+  <p class="mb-0">&copy; 2026 Scarlets Hockey Club. All Rights Reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -16,3 +16,28 @@ if (searchInput) {
     });
   });
 }
+
+
+
+const membershipForm = document.getElementById("membershipForm");
+const formMessage = document.getElementById("formMessage");
+
+if (membershipForm) {
+  membershipForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    const fullName = document.getElementById("fullName").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const phone = document.getElementById("phone").value.trim();
+    const team = document.getElementById("team").value;
+
+    if (fullName === "" || email === "" || phone === "" || team === "") {
+      formMessage.textContent = "Please fill in all fields.";
+      formMessage.style.color = "red";
+    } else {
+      formMessage.textContent = "Application submitted successfully!";
+      formMessage.style.color = "green";
+      membershipForm.reset();
+    }
+  });
+}
