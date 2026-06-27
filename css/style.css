@@ -202,3 +202,8 @@ form .btn {
     font-weight: 600;
     letter-spacing: 0.5px;
 }
+
+
+img {
+    border-radius: 10px;
+}
