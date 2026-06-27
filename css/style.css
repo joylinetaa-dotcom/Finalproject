@@ -76,11 +76,11 @@ footer {
   margin-top: 40px;
   background-color: #111 !important;
 }
-
 .table-dark {
   background-color: #111 !important;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
-
 .table-danger {
   background-color: #dc3545 !important;
   color: white;
