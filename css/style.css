@@ -66,12 +66,12 @@ body {
   transform: translateY(-8px) scale(1.02);
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2) !important;
 }
-
 section h1,
 section h2 {
   color: #111;
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
 }
-
 footer {
   margin-top: 40px;
   background-color: #111 !important;
